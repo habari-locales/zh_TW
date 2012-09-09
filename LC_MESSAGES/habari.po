@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: habari\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-26 00:00+0000\n"
+"POT-Creation-Date: 2012-09-02 00:00+0000\n"
 "PO-Revision-Date: 2011-03-14 15:32+0000\n"
 "Last-Translator: Joel Lee <Unknown>\n"
 "Language-Team: Joel Lee <elohim@gmail.com>\n"
@@ -10,8 +10,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n==1?0:1;\n"
-"X-Launchpad-Export-Date: 2012-08-28 05:08+0000\n"
-"X-Generator: Launchpad (build 15864)\n"
+"X-Launchpad-Export-Date: 2012-09-03 05:09+0000\n"
+"X-Generator: Launchpad (build 15890)\n"
 "X-Poedit-Country: TAIWAN\n"
 "X-Poedit-Language: Chinese\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -469,7 +469,7 @@ msgid "Latest Log Activity"
 msgstr "近期系統日誌"
 
 #: plugins/coredashmodules/coredashmodules.plugin.php:36
-#: plugins/coredashmodules/coredashmodules.plugin.php:241
+#: plugins/coredashmodules/coredashmodules.plugin.php:244
 msgid "Post Types and Statuses"
 msgstr ""
 
@@ -478,8 +478,8 @@ msgid "Number of items"
 msgstr ""
 
 #. @locale First variable is the post status, second is the post type
-#: plugins/coredashmodules/coredashmodules.plugin.php:130
-#: plugins/coredashmodules/coredashmodules.plugin.php:198
+#: plugins/coredashmodules/coredashmodules.plugin.php:133
+#: plugins/coredashmodules/coredashmodules.plugin.php:201
 #, php-format
 msgid "%1$s %2$s"
 msgstr ""
@@ -1242,7 +1242,7 @@ msgstr ""
 msgid "Displaying posts tagged: %s and not %s"
 msgstr ""
 
-#: themes/charcoal/theme.php:159 classes/theme.php:904
+#: themes/charcoal/theme.php:159 classes/theme.php:903
 msgid "No Comments"
 msgstr "尚無迴響"
 
@@ -1731,7 +1731,7 @@ msgstr "擴充元件檔案 %s 存在語法錯誤，故無法載入。"
 msgid "Show Error"
 msgstr "顯示錯誤訊息"
 
-#: admin/plugin.php:18 installer/db_setup.php:258
+#: admin/plugin.php:18 installer/db_setup.php:260
 #, php-format
 msgid ""
 "The plugin file %s is a legacy plugin, and does not include an XML info file."
@@ -1831,7 +1831,7 @@ msgstr "拒絕"
 msgid "Apply"
 msgstr "套用"
 
-#: admin/formcontrols/formcontrol_textmulti.php:16 classes/formui.php:1839
+#: admin/formcontrols/formcontrol_textmulti.php:16 classes/formui.php:1857
 msgid "remove"
 msgstr "刪除"
 
@@ -1846,7 +1846,7 @@ msgstr "使用中的外觀樣式"
 #: admin/themes.php:21 admin/themes.php:23
 #: handlers/adminpluginshandler.php:127 installer/db_setup.php:11
 #: installer/db_setup.php:166 installer/db_setup.php:220
-#: installer/db_setup.php:251
+#: installer/db_setup.php:253
 msgid "Help"
 msgstr "說明"
 
@@ -2235,12 +2235,12 @@ msgstr "停用"
 msgid "?"
 msgstr "說明"
 
-#: handlers/adminpluginshandler.php:218
+#: handlers/adminpluginshandler.php:219
 #, php-format
 msgid "Activated plugin '%s'"
 msgstr "已啟用擴充元件「%s」"
 
-#: handlers/adminpluginshandler.php:227
+#: handlers/adminpluginshandler.php:228
 #, php-format
 msgid "Deactivated plugin '%s'"
 msgstr "已停用擴充元件「%s」"
@@ -3399,56 +3399,56 @@ msgstr ""
 msgid "Anonymous"
 msgstr "訪客"
 
-#: classes/user.php:163
+#: classes/user.php:165
 #, php-format
 msgid "New user created: %s"
 msgstr "已新增使用者 %s"
 
-#: classes/user.php:205
+#: classes/user.php:207
 #, php-format
 msgid "User deleted: %s"
 msgstr "已刪除使用者 %s"
 
-#: classes/user.php:277 classes/user.php:306
+#: classes/user.php:283 classes/user.php:312
 #, php-format
 msgid "Successful login for %s"
 msgstr "%s 成功登入"
 
-#: classes/user.php:284
+#: classes/user.php:290
 #, php-format
 msgid "Login attempt (via authentication plugin) for non-existent user %s"
 msgstr "不存在的使用者 %s 嘗試透過認證擴充元件登入。"
 
-#: classes/user.php:285 classes/user.php:297 classes/user.php:315
+#: classes/user.php:291 classes/user.php:303 classes/user.php:321
 msgid "Invalid username/password"
 msgstr "無效的使用者名稱或密碼"
 
-#: classes/user.php:296
+#: classes/user.php:302
 #, php-format
 msgid "Login attempt for non-existent user %s"
 msgstr "不存在的使用者 %s 嘗試登入。"
 
-#: classes/user.php:314
+#: classes/user.php:320
 #, php-format
 msgid "Wrong password for user %s"
 msgstr "帳號 %s 的密碼錯誤"
 
-#: classes/user.php:532
+#: classes/user.php:538
 #, php-format
 msgid "User %1$s: Access to %2$s changed to %3$s"
 msgstr "使用者 %1$s 存取 %2$s 的權限變更為 %3$s"
 
-#: classes/user.php:556
+#: classes/user.php:562
 #, php-format
 msgid "User %1$s: Permission to %2$s revoked."
 msgstr "已撤回使用者 %1$s 對於 %2$s 的權限"
 
-#: classes/user.php:595
+#: classes/user.php:601
 #, php-format
 msgid " User %1$s: Added to %2$s group."
 msgstr " 使用者 %1$s 已加入 %2$s 群組。"
 
-#: classes/user.php:610
+#: classes/user.php:616
 #, php-format
 msgid " User %1$s: Removed from %2$s group."
 msgstr " 使用者 %1$s 已退出 %2$s 群組。"
@@ -3525,11 +3525,11 @@ msgstr "輸入的值小於最小值 %d。"
 msgid "The value entered is greater than the maximum of %d."
 msgstr "輸入的值大於最大值 %d。"
 
-#: classes/formui.php:1839
+#: classes/formui.php:1857
 msgid "Remove item"
 msgstr ""
 
-#: classes/formui.php:1843
+#: classes/formui.php:1861
 msgid "Remove this item?"
 msgstr "您確定要刪除這個項目？"
 
@@ -3822,26 +3822,26 @@ msgid ""
 "try again."
 msgstr "您欲檢視的頁面並不存在，請稍後再試。"
 
-#: classes/theme.php:672
+#: classes/theme.php:671
 #, php-format
 msgid ""
 "Content could not be displayed. One of the following templates - %s - has to "
 "be present in the active theme."
 msgstr ""
 
-#: classes/theme.php:830
+#: classes/theme.php:829
 msgid "Previous"
 msgstr "前頁"
 
-#: classes/theme.php:857
+#: classes/theme.php:856
 msgid "Next"
 msgstr "次頁"
 
-#: classes/theme.php:883
+#: classes/theme.php:882
 msgid "Read Comments"
 msgstr "閱讀迴響"
 
-#: classes/theme.php:909
+#: classes/theme.php:908
 #, php-format
 msgid "%s Comment"
 msgid_plural "%s Comments"
@@ -4752,22 +4752,22 @@ msgid ""
 "The theme file %s is a legacy theme, and does not include an XML info file."
 msgstr ""
 
-#: installer/db_setup.php:250
+#: installer/db_setup.php:252
 msgid "Plugin Activation"
 msgstr "啟用擴充元件"
 
-#: installer/db_setup.php:283 installer/config.php:31 installer/sqlite.php:25
+#: installer/db_setup.php:285 installer/config.php:31 installer/sqlite.php:25
 #: installer/htaccess.php:25
 msgid "Install"
 msgstr "安裝"
 
-#: installer/db_setup.php:286
+#: installer/db_setup.php:288
 msgid ""
 "Habari now has all of the information needed to install itself on your "
 "server."
 msgstr "安裝 Habari 所需的資訊已經備齊。"
 
-#: installer/db_setup.php:287 installer/header.php:20
+#: installer/db_setup.php:289 installer/header.php:20
 msgid "Install Habari"
 msgstr "安裝 Habari"
 
