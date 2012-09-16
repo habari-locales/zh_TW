@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: habari\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-02 00:00+0000\n"
+"POT-Creation-Date: 2012-09-09 00:00+0000\n"
 "PO-Revision-Date: 2011-03-14 15:32+0000\n"
 "Last-Translator: Joel Lee <Unknown>\n"
 "Language-Team: Joel Lee <elohim@gmail.com>\n"
@@ -10,8 +10,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n==1?0:1;\n"
-"X-Launchpad-Export-Date: 2012-09-03 05:09+0000\n"
-"X-Generator: Launchpad (build 15890)\n"
+"X-Launchpad-Export-Date: 2012-09-10 04:34+0000\n"
+"X-Generator: Launchpad (build 15924)\n"
 "X-Poedit-Country: TAIWAN\n"
 "X-Poedit-Language: Chinese\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -1831,11 +1831,11 @@ msgstr "拒絕"
 msgid "Apply"
 msgstr "套用"
 
-#: admin/formcontrols/formcontrol_textmulti.php:16 classes/formui.php:1857
+#: admin/formcontrols/formcontrol_textmulti.php:30 classes/formui.php:1857
 msgid "remove"
 msgstr "刪除"
 
-#: admin/formcontrols/formcontrol_textmulti.php:21
+#: admin/formcontrols/formcontrol_textmulti.php:35
 msgid "add"
 msgstr "新增"
 
