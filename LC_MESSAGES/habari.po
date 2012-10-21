@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: habari\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-07 00:00+0000\n"
+"POT-Creation-Date: 2012-10-14 00:00+0000\n"
 "PO-Revision-Date: 2011-03-14 15:32+0000\n"
 "Last-Translator: Joel Lee <Unknown>\n"
 "Language-Team: Joel Lee <elohim@gmail.com>\n"
@@ -10,8 +10,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n==1?0:1;\n"
-"X-Launchpad-Export-Date: 2012-10-08 05:12+0000\n"
-"X-Generator: Launchpad (build 16061)\n"
+"X-Launchpad-Export-Date: 2012-10-15 05:07+0000\n"
+"X-Generator: Launchpad (build 16137)\n"
 "X-Poedit-Country: TAIWAN\n"
 "X-Poedit-Language: Chinese\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -19,17 +19,17 @@ msgstr ""
 "X-Poedit-Basepath: ../../../../\n"
 "X-Poedit-KeywordsList: _n:1,2;_ne:1,2;_t;_e\n"
 
-#: classes/vocabulary.php:220
+#: classes/vocabulary.php:222
 #, php-format
 msgid "New vocabulary %1$s (%2$s)"
 msgstr "新分類法 %1$s (%2$s)"
 
-#: classes/vocabulary.php:295
+#: classes/vocabulary.php:297
 #, php-format
 msgid "Vocabulary %1$s (%2$s) deleted."
 msgstr "已刪除 %1$s (%2$s) 分類法。"
 
-#: classes/vocabulary.php:835
+#: classes/vocabulary.php:837
 #, php-format
 msgid "Term %1$s in the %2$s vocabulary has been renamed to %3$s."
 msgid_plural "Terms %1$s in the %2$s vocabulary have been renamed to %3$s."
@@ -42,7 +42,7 @@ msgid ""
 "Could not find a rule matching the following names: %s. File: %s (line %s)"
 msgstr "找不到符合條件的檔案: %s。 檔名: %s (第 %s 行)"
 
-#: classes/eventlog.php:372 handlers/adminlogshandler.php:267
+#: classes/eventlog.php:373 handlers/adminlogshandler.php:267
 msgid "Logs purged."
 msgstr ""
 
@@ -236,7 +236,7 @@ msgstr ""
 msgid "full"
 msgstr "完整"
 
-#: classes/bitmask.php:188 classes/logentry.php:26
+#: classes/bitmask.php:188 classes/logentry.php:31
 msgid "none"
 msgstr "無"
 
@@ -307,43 +307,43 @@ msgstr ""
 msgid "The cache directory '%s' is not writable - the cache is disabled."
 msgstr "快取資料夾 <code>%s</code> 無法寫入，快取功能已停用。"
 
-#: classes/logentry.php:25
+#: classes/logentry.php:30
 msgid "any"
 msgstr ""
 
-#: classes/logentry.php:27
+#: classes/logentry.php:32
 msgid "debug"
 msgstr ""
 
-#: classes/logentry.php:28
+#: classes/logentry.php:33
 msgid "info"
 msgstr ""
 
-#: classes/logentry.php:29
+#: classes/logentry.php:34
 msgid "notice"
 msgstr ""
 
-#: classes/logentry.php:30
+#: classes/logentry.php:35
 msgid "warning"
 msgstr ""
 
-#: classes/logentry.php:31
+#: classes/logentry.php:36
 msgid "err"
 msgstr ""
 
-#: classes/logentry.php:32
+#: classes/logentry.php:37
 msgid "crit"
 msgstr ""
 
-#: classes/logentry.php:33
+#: classes/logentry.php:38
 msgid "alert"
 msgstr ""
 
-#: classes/logentry.php:34
+#: classes/logentry.php:39
 msgid "emerg"
 msgstr ""
 
-#: classes/logentry.php:170 classes/logentry.php:267 classes/logentry.php:280
+#: classes/logentry.php:175 classes/logentry.php:272 classes/logentry.php:285
 msgid "Unknown"
 msgstr "不明"
 
@@ -376,64 +376,64 @@ msgstr ""
 msgid "Unable to fetch response body for a pending request."
 msgstr ""
 
-#: classes/comment.php:208 classes/user.php:77
+#: classes/comment.php:216 classes/user.php:81
 msgid "Anonymous"
 msgstr "訪客"
 
-#: classes/comment.php:390
+#: classes/comment.php:398
 msgid "Unapprove"
 msgstr "待核准"
 
-#: classes/comment.php:391
+#: classes/comment.php:399
 msgid "Approve"
 msgstr "核准"
 
-#: classes/comment.php:392
+#: classes/comment.php:400
 msgid "Spam"
 msgstr "垃圾"
 
-#: classes/comment.php:586
+#: classes/comment.php:594
 msgid "comment"
 msgstr ""
 
-#: classes/comment.php:587
+#: classes/comment.php:595
 msgid "comments"
 msgstr ""
 
-#: classes/comment.php:590
+#: classes/comment.php:598
 msgid "pingback"
 msgstr ""
 
-#: classes/comment.php:591
+#: classes/comment.php:599
 msgid "pingbacks"
 msgstr ""
 
-#: classes/comment.php:594
+#: classes/comment.php:602
 msgid "trackback"
 msgstr ""
 
-#: classes/comment.php:595
+#: classes/comment.php:603
 msgid "trackbacks"
 msgstr ""
 
-#: classes/comment.php:611
+#: classes/comment.php:619
 msgid "unapproved"
 msgstr ""
 
-#: classes/comment.php:612
+#: classes/comment.php:620
 msgid "approved"
 msgstr ""
 
-#: classes/comment.php:613
+#: classes/comment.php:621
 msgid "spam"
 msgstr ""
 
-#: classes/pluggable.php:187 classes/plugin.php:62
+#: classes/pluggable.php:248 classes/plugin.php:62
 #: handlers/adminpluginshandler.php:57 handlers/adminpluginshandler.php:107
 msgid "?"
 msgstr "說明"
 
-#: classes/pluggable.php:221 plugins/undelete/undelete.plugin.php:166
+#: classes/pluggable.php:282 plugins/undelete/undelete.plugin.php:166
 #: plugins/undelete/undelete.plugin.php:178
 #: plugins/flickrsilo/flickrsilo.plugin.php:803 admin/block_instances.php:16
 msgid "Configure"
@@ -487,32 +487,32 @@ msgstr "試圖將資料對映至不存在的類別"
 msgid "The APC Cache PHP module is not loaded - the cache is disabled."
 msgstr "PHP APC 快取模組並未載入，快取已停用。"
 
-#: classes/usergroup.php:93
+#: classes/usergroup.php:97
 #, php-format
 msgid "New group created: %s"
 msgstr "已建立新群組: %s"
 
-#: classes/usergroup.php:113
+#: classes/usergroup.php:117
 #, php-format
 msgid "User Group updated: %s"
 msgstr "已更新 %s 群組"
 
-#: classes/usergroup.php:130
+#: classes/usergroup.php:134
 #, php-format
 msgid "User Group %s: Member list reset"
 msgstr "已重設 %s 群組成員列表"
 
-#: classes/usergroup.php:154
+#: classes/usergroup.php:158
 #, php-format
 msgid "User Group %s: Group deleted."
 msgstr "已刪除 %s 群組。"
 
-#: classes/usergroup.php:204
+#: classes/usergroup.php:208
 #, php-format
 msgid "User Group %1$s: Users were added to the group."
 msgstr "使用者加入了 %1$s 群組。"
 
-#: classes/usergroup.php:221
+#: classes/usergroup.php:225
 #, php-format
 msgid "User Group %1$s: Users were removed from the group."
 msgstr "使用者退出了 %s 群組。"
@@ -764,56 +764,56 @@ msgid ""
 "string specified. Please check config.php"
 msgstr "發生嚴重錯誤！找不到連線字串對應的資料庫連線類別，請檢查 config.php。"
 
-#: classes/user.php:165
+#: classes/user.php:169
 #, php-format
 msgid "New user created: %s"
 msgstr "已新增使用者 %s"
 
-#: classes/user.php:207
+#: classes/user.php:211
 #, php-format
 msgid "User deleted: %s"
 msgstr "已刪除使用者 %s"
 
-#: classes/user.php:283 classes/user.php:312
+#: classes/user.php:287 classes/user.php:316
 #, php-format
 msgid "Successful login for %s"
 msgstr "%s 成功登入"
 
-#: classes/user.php:290
+#: classes/user.php:294
 #, php-format
 msgid "Login attempt (via authentication plugin) for non-existent user %s"
 msgstr "不存在的使用者 %s 嘗試透過認證擴充元件登入。"
 
-#: classes/user.php:291 classes/user.php:303 classes/user.php:321
+#: classes/user.php:295 classes/user.php:307 classes/user.php:325
 msgid "Invalid username/password"
 msgstr "無效的使用者名稱或密碼"
 
-#: classes/user.php:302
+#: classes/user.php:306
 #, php-format
 msgid "Login attempt for non-existent user %s"
 msgstr "不存在的使用者 %s 嘗試登入。"
 
-#: classes/user.php:320
+#: classes/user.php:324
 #, php-format
 msgid "Wrong password for user %s"
 msgstr "帳號 %s 的密碼錯誤"
 
-#: classes/user.php:538
+#: classes/user.php:542
 #, php-format
 msgid "User %1$s: Access to %2$s changed to %3$s"
 msgstr "使用者 %1$s 存取 %2$s 的權限變更為 %3$s"
 
-#: classes/user.php:562
+#: classes/user.php:566
 #, php-format
 msgid "User %1$s: Permission to %2$s revoked."
 msgstr "已撤回使用者 %1$s 對於 %2$s 的權限"
 
-#: classes/user.php:601
+#: classes/user.php:605
 #, php-format
 msgid " User %1$s: Added to %2$s group."
 msgstr " 使用者 %1$s 已加入 %2$s 群組。"
 
-#: classes/user.php:616
+#: classes/user.php:620
 #, php-format
 msgid " User %1$s: Removed from %2$s group."
 msgstr " 使用者 %1$s 已退出 %2$s 群組。"
@@ -835,17 +835,17 @@ msgstr "引號不平衡。"
 msgid "Not set"
 msgstr ""
 
-#: classes/comments.php:446
+#: classes/comments.php:455
 #, php-format
 msgid "Comment %1$s moderated from %2$s"
 msgstr "已審核 %2$s 文章的迴響 %1$s"
 
-#: classes/comments.php:453
+#: classes/comments.php:462
 #, php-format
 msgid "Comment %1$d moderated"
 msgstr ""
 
-#: classes/comments.php:650
+#: classes/comments.php:659
 #, php-format
 msgid "Comment %1$s deleted from %2$s"
 msgstr "已刪除 %2$s 的迴響 %1$s"
@@ -1977,6 +1977,7 @@ msgstr ""
 #. @locale First variable is the post status, second is the post type
 #: plugins/coredashmodules/coredashmodules.plugin.php:133
 #: plugins/coredashmodules/coredashmodules.plugin.php:201
+#: plugins/menus/menus.plugin.php:483
 #, php-format
 msgid "%1$s %2$s"
 msgstr ""
@@ -2038,6 +2039,158 @@ msgstr "編輯 ‘%s’"
 #: admin/themes.php:117
 msgid "by"
 msgstr "由"
+
+#: plugins/menus/menus.plugin.php:30
+msgid "Manage menus"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:83 plugins/menus/menus.plugin.php:548
+msgid "Menu"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:92
+msgid "Menu Taxonomy"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:93
+msgid "Wrap each menu link in a div"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:94
+msgid "Custom class for the tree ordered list element"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:140 plugins/menus/menus.plugin.php:141
+#: plugins/menus/menus.plugin.php:219 plugins/menus/menus.plugin.php:220
+msgid "Menus"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:295
+msgid "Link"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:297
+msgid "Link Title"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:298
+msgid "A name is required."
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:299
+msgid "Link URL"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:301
+msgid "You must supply a valid URL."
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:322
+msgid "Link added."
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:340 plugins/menus/menus.plugin.php:427
+msgid "Link updated."
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:352
+msgid "Spacer"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:354
+msgid "Item text"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:355
+msgid "Leave blank for blank space"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:374
+msgid "Spacer added."
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:380
+msgid "Spacer updated."
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:386
+msgid "Links to Posts"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:392
+msgid "Title to display"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:400
+msgid "Posts"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:420
+msgid "Link(s) added."
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:483
+msgid "Update"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:483 admin/group.php:48
+msgid "Add"
+msgstr "新增"
+
+#: plugins/menus/menus.plugin.php:494
+msgid "Menu item added."
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:520
+msgid "<h2>Invalid Menu.</h2>"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:527 themes/charcoal/theme.php:226
+#: admin/login.php:36
+msgid "Name"
+msgstr "名稱"
+
+#: plugins/menus/menus.plugin.php:528 plugins/menus/menus.plugin.php:570
+msgid "You must supply a valid menu name"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:533 plugins/menus/menus.plugin.php:572
+msgid "Description"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:544
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:554
+msgid "Apply Changes"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:569
+msgid "Menu Name"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:573
+msgid "Create Menu"
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:583
+msgid "Menu deleted."
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:593
+msgid "Item deleted."
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:637
+#, php-format
+msgid "Updated menu \"%s\"."
+msgstr ""
+
+#: plugins/menus/menus.plugin.php:686
+msgid "Please choose a vocabulary name that does not already exist."
+msgstr ""
 
 #: plugins/coreblocks/coreblocks.plugin.php:18
 msgid "Recent Comments"
@@ -2124,7 +2277,7 @@ msgid "Logout"
 msgstr "登出"
 
 #: plugins/coreblocks/coreblocks.plugin.php:336 themes/charcoal/header.php:41
-#: admin/login.php:51
+#: admin/login.php:43
 msgid "Login"
 msgstr "登入"
 
@@ -2170,7 +2323,7 @@ msgid "Browse"
 msgstr "瀏覽"
 
 #: plugins/habarisilo/habarisilo.plugin.php:418
-#: plugins/habarisilo/habarisilo.plugin.php:576 admin/plugins.php:88
+#: plugins/habarisilo/habarisilo.plugin.php:579 admin/plugins.php:88
 msgid "Upload"
 msgstr "上傳"
 
@@ -2220,93 +2373,97 @@ msgid "File: "
 msgstr ""
 
 #: plugins/habarisilo/habarisilo.plugin.php:522
-msgid "File added successfully."
-msgstr "檔案已成功新增。"
+#, php-format
+msgid "File uploaded: %s"
+msgstr ""
 
-#: plugins/habarisilo/habarisilo.plugin.php:526
+#: plugins/habarisilo/habarisilo.plugin.php:528
 msgid ""
 "The uploaded file exceeds the upload_max_filesize directive in php.ini."
 msgstr ""
 
-#: plugins/habarisilo/habarisilo.plugin.php:527
+#: plugins/habarisilo/habarisilo.plugin.php:529
 msgid ""
 "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
 "the HTML form."
 msgstr ""
 
-#: plugins/habarisilo/habarisilo.plugin.php:528
+#: plugins/habarisilo/habarisilo.plugin.php:530
 msgid "The uploaded file was only partially uploaded."
 msgstr ""
 
-#: plugins/habarisilo/habarisilo.plugin.php:529
+#: plugins/habarisilo/habarisilo.plugin.php:531
 msgid "No file was uploaded."
 msgstr ""
 
-#: plugins/habarisilo/habarisilo.plugin.php:530
+#: plugins/habarisilo/habarisilo.plugin.php:532
 msgid "Missing a temporary folder."
 msgstr ""
 
-#: plugins/habarisilo/habarisilo.plugin.php:531
+#: plugins/habarisilo/habarisilo.plugin.php:533
 msgid "Failed to write file to disk."
 msgstr ""
 
-#: plugins/habarisilo/habarisilo.plugin.php:532
+#: plugins/habarisilo/habarisilo.plugin.php:534
 msgid ""
 "A PHP extension stopped the file upload. PHP does not provide a way to "
 "ascertain which extension caused the file upload to stop; examining the list "
 "of loaded extensions with phpinfo() may help."
 msgstr ""
 
-#: plugins/habarisilo/habarisilo.plugin.php:535
-msgid "File could not be added to the silo."
-msgstr "檔案無法新增至資源庫。"
+#: plugins/habarisilo/habarisilo.plugin.php:536
+#, php-format
+msgid "File upload failed: %s"
+msgstr ""
 
-#: plugins/habarisilo/habarisilo.plugin.php:539
-#: plugins/habarisilo/habarisilo.plugin.php:652
+#: plugins/habarisilo/habarisilo.plugin.php:542
+#: plugins/habarisilo/habarisilo.plugin.php:655
 msgid "Browse the current silo path."
 msgstr "瀏覽目前的資源庫路徑"
 
-#: plugins/habarisilo/habarisilo.plugin.php:541
+#: plugins/habarisilo/habarisilo.plugin.php:544
 msgid ""
 "Suspicious behaviour or too much time has elapsed.  Please upload your file "
 "again."
 msgstr ""
 
-#: plugins/habarisilo/habarisilo.plugin.php:576
+#: plugins/habarisilo/habarisilo.plugin.php:579
 msgid "Upload to:"
 msgstr "上傳至:"
 
-#: plugins/habarisilo/habarisilo.plugin.php:594
+#: plugins/habarisilo/habarisilo.plugin.php:597
 #, php-format
 msgid "The directory name contains invalid characters: %s."
 msgstr ""
 
-#: plugins/habarisilo/habarisilo.plugin.php:601
+#: plugins/habarisilo/habarisilo.plugin.php:604
 #, php-format
 msgid "Webserver does not have permission to create directory: %s."
 msgstr "伺服器沒有建立 %s 資料夾的權限。"
 
-#: plugins/habarisilo/habarisilo.plugin.php:604
+#: plugins/habarisilo/habarisilo.plugin.php:607
 #, php-format
 msgid "Directory: %s already exists."
 msgstr "%s 資料夾已存在。"
 
-#: plugins/habarisilo/habarisilo.plugin.php:623
+#: plugins/habarisilo/habarisilo.plugin.php:626
 #, php-format
-msgid "Directory Deleted: %s"
+msgid "Directory deleted: /%s"
 msgstr ""
 
-#: plugins/habarisilo/habarisilo.plugin.php:628
+#: plugins/habarisilo/habarisilo.plugin.php:631
 #, php-format
-msgid "Directory Created: %s"
+msgid "Directory created: %s"
 msgstr ""
 
-#: plugins/habarisilo/habarisilo.plugin.php:647
-msgid "File deleted successfully."
+#: plugins/habarisilo/habarisilo.plugin.php:650
+#, php-format
+msgid "File deleted: /%s"
 msgstr ""
 
-#: plugins/habarisilo/habarisilo.plugin.php:649
-msgid "Failed to delete file."
+#: plugins/habarisilo/habarisilo.plugin.php:652
+#, php-format
+msgid "Failed to delete file: /%s"
 msgstr ""
 
 #: handlers/adminusershandler.php:28
@@ -3176,7 +3333,7 @@ msgid_plural "Unapproved %d comments"
 msgstr[0] "已將 %d 則迴響標記為待審核"
 
 #: handlers/userhandler.php:21 themes/mzingi/loginform.php:31
-#: admin/login.php:54
+#: admin/login.php:46
 msgid "Reset password"
 msgstr "重設密碼"
 
@@ -3716,10 +3873,6 @@ msgstr "找不到符合 ‘%s’ 的文章"
 msgid "You can try searching for '%s'"
 msgstr ""
 
-#: themes/charcoal/theme.php:226 admin/login.php:44
-msgid "Name"
-msgstr "名稱"
-
 #: themes/charcoal/theme.php:226
 msgid "(Required)"
 msgstr "(必填)"
@@ -3879,7 +4032,7 @@ msgid ""
 msgstr "<strong>資料庫帳號</strong>紀錄 Habari 連線至您的 MySQL 伺服器時使用的帳號。"
 
 #: installer/db_setup.php:62 installer/db_setup.php:109
-#: installer/db_setup.php:190 admin/login.php:47 admin/users.php:48
+#: installer/db_setup.php:190 admin/login.php:39 admin/users.php:48
 msgid "Password"
 msgstr "密碼"
 
@@ -4333,21 +4486,21 @@ msgstr ""
 msgid "Login to %s"
 msgstr "登入 %s"
 
-#: admin/login.php:33 admin/header.php:72
+#: admin/login.php:25 admin/header.php:72
 msgid "Go to Site"
 msgstr "開啟網站"
 
-#: admin/login.php:40
+#: admin/login.php:32
 msgid ""
 "Please enter the username you wish to reset the password for.  A unique "
 "password reset link will be emailed to that user."
 msgstr ""
 
-#: admin/login.php:44
+#: admin/login.php:36
 msgid "name"
 msgstr "帳號"
 
-#: admin/login.php:47
+#: admin/login.php:39
 msgid "password"
 msgstr "密碼"
 
@@ -4630,10 +4783,6 @@ msgstr "成員"
 #: admin/group.php:38
 msgid "Members To Add"
 msgstr "新增成員"
-
-#: admin/group.php:48
-msgid "Add"
-msgstr "新增"
 
 #: admin/group.php:53
 msgid "Members To Remove"
@@ -5240,6 +5389,12 @@ msgstr "您尚未儲存，直接離開本頁將喪失您所做的變更。"
 
 #~ msgid "and a huge amount of "
 #~ msgstr "以及大量的 "
+
+#~ msgid "File added successfully."
+#~ msgstr "檔案已成功新增。"
+
+#~ msgid "File could not be added to the silo."
+#~ msgstr "檔案無法新增至資源庫。"
 
 #~ msgid "File Uploaded: "
 #~ msgstr "檔案已上傳: "
